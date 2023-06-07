@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .content {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 17px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: 100px 150px 30px 100px 50px 100px 150px;
+            grid-gap: 15px;
+            justify-content: space-evenly;
+        }
+        .content div {
+            background-color: antiquewhite;
+            color: black;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+        }
+        .tabel1 {
+            grid-column: 1/ 5;
+        }
+        .tabel2 {
+            grid-column: 1 / 5;
+        }
+
+        .tabel3 {
+
+        }
+
+        .tabel4 {
+
+        }
+        .tabel5 {
+
+        }
+        .tabel6 {
+
+        }
+        .tabel7 {
+            grid-column: 1/ 3;
+            grid-row: 4 / 7;
+        }
+        .tabel8 {
+            grid-column: 3 / 5;
+            grid-row: 5 / 7;
+
+        }
+        .tabel9 {
+            grid-column: 3 / 5;
+            grid-row: 4 / 5;
+
+        }.tabel10 {
+            grid-column: 1/ 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <div class="tabel1">Company logo and slogan</div>
+        <div class="tabel2">header</div>
+        <div class="tabel3">navigation...</div>
+        <div class="tabel4"></div>
+        <div class="tabel5"></div>
+        <div class="tabel6"></div>
+        <div class="tabel7">about</div>
+        <div class="tabel8">quick links</div>
+        <div class="tabel9">quick links</div>
+        <div class="tabel10">site plane and copyright info</div>
+    </div>
+</body>
+</html>
