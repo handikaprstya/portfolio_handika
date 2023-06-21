@@ -1,0 +1,25 @@
+{
+    "carts": [
+        {
+            "id": 0,
+            "name": "Handuk",
+            "price": "Rp.25.000",
+            "img": "https://asset-a.grid.id//crop/0x0:0x0/360x240/photo/2022/03/14/jenis-jenis-handukjpg-20220314035930.jpg",
+            "qty": 12
+        },
+        {
+            "id": 1,
+            "name":"Sempak",
+            "price": "Rp.40.000",
+            "img": "https://i.pinimg.com/474x/9a/a7/09/9aa709512f1714a17f946639823d76b0.jpg",
+            "qty": 24
+        },
+        {
+            "id": 2,
+            "name": "Batu Akik",
+            "price": "Rp.150.000",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVjM-GM1pp-Yv67iOwvRIwUufBmN-Evn7PxMzaAl2R&s",
+            "qty": 18
+        }
+    ]
+}
